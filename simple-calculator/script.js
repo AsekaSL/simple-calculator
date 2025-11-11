@@ -19,7 +19,9 @@ function add() {
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
 function subtract() {
-    alert('Subtraction not implemented yet!');
+   let  { num1, num2 } = getInputs();
+   let sub = num1 - num2 ;
+   displayResult(sub);
 }
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
