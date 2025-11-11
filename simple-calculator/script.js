@@ -29,5 +29,9 @@ function multiply() {
 
 // Division function - TO BE IMPLEMENTED BY STUDENT 5
 function divide() {
-    alert('Division not implemented yet!');
+      
+      let{num1, num2} = getInputs();
+    let div = num1 / num2;
+    displayResult(div);
+   
 }
