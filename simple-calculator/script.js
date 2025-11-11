@@ -28,8 +28,11 @@ function subtract() {
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
 function multiply() {
-    alert('Multiplication not implemented yet!');
+    let {num1, num2} = getInputs();
+    let mul = num1*num2;
+    displayResult(mul);
 }
+
 
 // Division function - TO BE IMPLEMENTED BY STUDENT 5
 function divide() {
