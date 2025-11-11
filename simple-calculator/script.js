@@ -14,7 +14,11 @@ function displayResult(value) {
 
 // Addition function - TO BE IMPLEMENTED BY STUDENT 2
 function add() {
-    alert('Addition not implemented yet!');
+    let num1 = getInputs().num1
+    let num2 = getInputs().num2
+    let sum = num1 + num2
+    displayResult(sum);
+
 }
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
